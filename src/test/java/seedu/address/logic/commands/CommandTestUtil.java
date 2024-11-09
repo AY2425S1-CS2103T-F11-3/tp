@@ -68,7 +68,7 @@ public class CommandTestUtil {
     public static final String TAG_DESC_FRIEND = " " + PREFIX_TAG + VALID_TAG_FRIEND;
     public static final String TAG_DESC_HUSBAND = " " + PREFIX_TAG + VALID_TAG_HUSBAND;
 
-    public static final String INVALID_NAME_DESC = " " + PREFIX_NAME + "James&"; // '&' not allowed in names
+    public static final String INVALID_NAME_DESC = " " + PREFIX_NAME + "Jam/es"; // '/' not allowed in names
     public static final String INVALID_AGE_DESC = " " + PREFIX_AGE + "1234"; // age cannot be more than 3 digits
     public static final String INVALID_GENDER_DESC = " " + PREFIX_GENDER + "E"; // 'E' not allowed in genders
     public static final String INVALID_NRIC_DESC = " " + PREFIX_NRIC + "S12Z"; // should have 7 numbers

@@ -22,7 +22,7 @@ import seedu.address.model.person.Nric;
 import seedu.address.model.person.Phone;
 
 public class JsonAdaptedPersonTest {
-    private static final String INVALID_NAME = "R@chel";
+    private static final String INVALID_NAME = "R/chel";
     private static final String INVALID_AGE = "2000";
     private static final String INVALID_GENDER = "E";
     private static final String INVALID_NRIC = "E123P";
